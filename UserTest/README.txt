@@ -1,41 +1,41 @@
 User Test: This is a simple guide to use AutoMCL.
-©À©¤©¤ e2e
-©¦ ©À©¤©¤ CNNs
-©¦ ©¦ ©¸©¤©¤ tune_model_e2e.py     (1)
-©¦ ©¸©¤©¤ FCNNs
-©¦     ©À©¤©¤ build_net
-©¦     ©¦ ©À©¤©¤ build_net.py
-©¦     ©¦ ©À©¤©¤ infer.py
-©¦     ©¦ ©À©¤©¤ infer_mxnet.py
-©¦     ©¦ ©À©¤©¤ layer4-0000.params
-©¦     ©¦ ©À©¤©¤ layer4-symbol.json
-©¦     ©¦ ©À©¤©¤ layer6-0000.params
-©¦     ©¦ ©À©¤©¤ layer6-symbol.json
-©¦     ©¦ ©À©¤©¤ net
-©¦     ©¦ ©¦ ©À©¤©¤ X_2.data-00000-of-00001
-©¦     ©¦ ©¦ ©À©¤©¤ X_2.index
-©¦     ©¦ ©¦ ©À©¤©¤ X_2.meta
-©¦     ©¦ ©¦ ©¸©¤©¤ checkpoint
-©¦     ©¦ ©À©¤©¤ test_net-0000.params
-©¦     ©¦ ©¸©¤©¤ test_net-symbol.json
-©¦     ©À©¤©¤ from_mynet.py         (2)
-©¦     ©¸©¤©¤ paradnn
-©¦         ©À©¤©¤ fc_cpu_float32-symbol.json
-©¦         ©À©¤©¤ fc_trace_10sec.json
-©¦         ©À©¤©¤ fc_trace_10sec_opbreakdown.json
-©¦         ©¸©¤©¤ json_parse.py
-©¸©¤©¤ op
-    ©À©¤©¤ conv2d_template
-    ©¦ ©¸©¤©¤ conv2d.py             (3)
-    ©¸©¤©¤ dense_template
-        ©À©¤©¤ dnmm.py               (4)
-        ©À©¤©¤ dnmm332.py
-        ©À©¤©¤ dpmm.py
-        ©À©¤©¤ lpmm.py
-        ©À©¤©¤ rpmm.py
-        ©À©¤©¤ rpmmv.py
-        ©À©¤©¤ tmm.py
-        ©¸©¤©¤ ttmm.py
+â”œâ”€â”€ e2e
+â”‚ â”œâ”€â”€ CNNs
+â”‚ â”‚ â””â”€â”€ tune_model_e2e.py     (1)
+â”‚ â””â”€â”€ FCNNs
+â”‚     â”œâ”€â”€ build_net
+â”‚     â”‚ â”œâ”€â”€ build_net.py
+â”‚     â”‚ â”œâ”€â”€ infer.py
+â”‚     â”‚ â”œâ”€â”€ infer_mxnet.py
+â”‚     â”‚ â”œâ”€â”€ layer4-0000.params
+â”‚     â”‚ â”œâ”€â”€ layer4-symbol.json
+â”‚     â”‚ â”œâ”€â”€ layer6-0000.params
+â”‚     â”‚ â”œâ”€â”€ layer6-symbol.json
+â”‚     â”‚ â”œâ”€â”€ net
+â”‚     â”‚ â”‚ â”œâ”€â”€ X_2.data-00000-of-00001
+â”‚     â”‚ â”‚ â”œâ”€â”€ X_2.index
+â”‚     â”‚ â”‚ â”œâ”€â”€ X_2.meta
+â”‚     â”‚ â”‚ â””â”€â”€ checkpoint
+â”‚     â”‚ â”œâ”€â”€ test_net-0000.params
+â”‚     â”‚ â””â”€â”€ test_net-symbol.json
+â”‚     â”œâ”€â”€ from_mynet.py         (2)
+â”‚     â””â”€â”€ paradnn
+â”‚         â”œâ”€â”€ fc_cpu_float32-symbol.json
+â”‚         â”œâ”€â”€ fc_trace_10sec.json
+â”‚         â”œâ”€â”€ fc_trace_10sec_opbreakdown.json
+â”‚         â””â”€â”€ json_parse.py
+â””â”€â”€ op
+    â”œâ”€â”€ conv2d_template
+    â”‚ â””â”€â”€ conv2d.py             (3)
+    â””â”€â”€ dense_template
+        â”œâ”€â”€ dnmm.py               (4)
+        â”œâ”€â”€ dnmm332.py
+        â”œâ”€â”€ dpmm.py
+        â”œâ”€â”€ lpmm.py
+        â”œâ”€â”€ rpmm.py
+        â”œâ”€â”€ rpmmv.py
+        â”œâ”€â”€ tmm.py
+        â””â”€â”€ ttmm.py
 
 
     (1)USEAGE: "python tune_model_e2e.py [batch size]"
