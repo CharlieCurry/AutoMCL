@@ -1,14 +1,3 @@
-#Recommended first time reading
-AutoMCL documents(Introduction,Install,User Interface,New Developer Features and More).
-
-#When you want to use or view code
-AutoMCL_EasyReplace-----------AutoMCL Source Code Replace Version for using.
-
-#When you want to use AutoMCL
-UserTest--------------------------User Interface Testing and Using.
-
-More: https://zenodo.org/record/4894498#.YMASeYgzZPY
-
 
 <center><font size=6>AutoMCL Documentation</font></center>
 <center><font size=4>Haoyu Chi and Changbo Chen</font></center>
